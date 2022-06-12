@@ -163,6 +163,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         Artesaos\SEOTools\Providers\SEOToolsServiceProvider::class,
         Barryvdh\Debugbar\ServiceProvider::class,
+        Jrean\UserVerification\UserVerificationServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -233,6 +234,7 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'SEO' => Artesaos\SEOTools\Facades\SEOTools::class,
         'Debugbar' => Barryvdh\Debugbar\Facades\Debugbar::class,
+        'UserVerification' => Jrean\UserVerification\Facades\UserVerification::class,
     ],
 
 ];
